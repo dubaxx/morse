@@ -117,13 +117,13 @@ func blinker(input string) {
 
 		switch string(c) {
 		case ".":
-			fmt.Println("dot")
+			//fmt.Println("dot")
 			blink(time.Second / 5)
 		case "-":
-			fmt.Println("dash")
+			//fmt.Println("dash")
 			blink(time.Second / 2)
 		default:
-			fmt.Println("space")
+			//fmt.Println("space")
 			time.Sleep(time.Second / 5)
 		}
 	}
